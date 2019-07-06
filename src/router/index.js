@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Show from '@/components/Show'
 import Swap from '@/components/Swap'
-import Add from '@/components/Add'
-import Redact from '@/components/Redact'
+// import Add from '@/components/Add'
+// import Redact from '@/components/Redact'
 
 Vue.use(Router)
 
@@ -23,23 +23,23 @@ export default new Router({
       component: Show
     },
 
-    {
-      path: '/redact',
-      name: 'redact',
-      component: Redact
-    },
+    // {
+    //   path: '/redact',
+    //   name: 'redact',
+    //   component: Redact
+    // },
 
     {
       path: '/swap',
       name: 'swap',
       component: Swap
-    },
-
-    {
-      path: '/add',
-      name: 'add',
-      component: Add
     }
+
+    // {
+    //   path: '/add',
+    //   name: 'add',
+    //   component: Add
+    // }
   ]
 })
 // import Signup from "./views/Signup.vue";
