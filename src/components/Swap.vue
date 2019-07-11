@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <link rel="stylesheet" href="animate.min.css">
     <div class="swap">
       <div class="container-fluid">
         <h1> Swap </h1>

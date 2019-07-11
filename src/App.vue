@@ -1,13 +1,10 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <router-view/> -->
         <header>
-            <link rel="stylesheet" href="animate.min.css">
           <section id="sidebar">
             <div class="inner">
               <nav>
-                <ul>                                   
+                <ul>                               
                   <li><a href="/">Home</a></li>
                   <!-- <li><a href="/#/signup">Signup</a></li> -->
                   <!-- <li><a href="/#/login">Login</a></li> -->
@@ -15,7 +12,6 @@
                   <!-- <li><a href="/#/template">Template</a></li> -->
                   <!-- <li><a href="/#/profile">Profile</a></li> -->
                 </ul>
-
               </nav>
             </div>
           </section>
